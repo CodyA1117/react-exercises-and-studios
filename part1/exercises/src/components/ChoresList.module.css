@@ -1,7 +1,13 @@
 .choresText {
-   color: black;
+   font-family: 'Arial', sans-serif; /* Change font */
+   font-size: 1.5vw; /* Adjust size */
+   color: green; /* Different color than movies */
 }
 
 .choresHeading {
-   color: black;
+   text-decoration: underline; /* Underline heading */
+}
+
+.choresItem {
+   font-style: italic; /* Italicize items */
 }

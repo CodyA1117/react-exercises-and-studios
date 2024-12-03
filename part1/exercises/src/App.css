@@ -38,6 +38,38 @@
 }
 
 .similarComponents {
-  display:flex;
-justify-content:space-between;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid gray;
+  background-color: #f9f9f9;
 }
+
+
+.movieText {
+  color: #2a9d8f; 
+  font-size: 1.5em; 
+  text-align: left; 
+}
+
+.choresText {
+  color: #264653; 
+  font-family: "Arial", sans-serif; 
+  font-size: 1.5em;
+}
+
+.choresHeading {
+  text-decoration: underline; 
+}
+
+.choresItem {
+  font-style: italic; 
+}
+
+.hobbyLinks {
+  background-color: #e0f7fa;
+  padding: 10px;
+  border-radius: 5px;
+}
+
