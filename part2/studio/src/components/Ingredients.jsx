@@ -1,10 +1,11 @@
 import recipe from './recipe.json';
+
 export default function IngredientList() {
     return (
         <div>
             <h3>Ingredients</h3>
             <ul>
-                {recipe.ingredients.map((ingredient, index) => (
+                {recipe[0].ingredients.map((ingredient, index) => (
                     <li key={index}>{ingredient}</li>
                 ))}
             </ul>
