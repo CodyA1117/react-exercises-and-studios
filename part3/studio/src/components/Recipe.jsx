@@ -1,9 +1,9 @@
 import { useState } from 'react';
 
 const RecipeAuthor = () => {
-   let authorLink = "https://chefjohnrecipes.com";
-   let authorPhoto = "https://example.com/chef.jpg";
-   let authorName = "Chef John";
+   let authorLink = "https://www.feastmagazine.com/restaurants/9-st-louis-chefs-to-know-in-2017/collection_c2940832-c877-11e6-bf1c-ef7c9ac96a0d.html";
+   let authorPhoto = "https://bloximages.newyork1.vip.townnews.com/feastmagazine.com/content/tncms/assets/v3/editorial/7/6c/76cc4ef0-c877-11e6-ba97-df6bcbc55545/585c20621d4af.image.jpg";
+   let authorName = "Ari Jo Ellis";
 
    return (
       <div>
@@ -54,7 +54,7 @@ const RecipeDescription = () => {
 }
 
 const RecipePhoto = () => {
-   const photoUrl = "https://example.com/spaghetti.jpg"
+   const photoUrl = "https://bing.com/th?id=OSK.c8741fc3c4a4ca1f95a86b748a7843ce"
    return (
       <img src={photoUrl} alt="Spaghetti Carbonara" className="imageUpdates"/>
    );
