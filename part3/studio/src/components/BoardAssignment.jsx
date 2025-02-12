@@ -1,9 +1,15 @@
 import { useState } from 'react';
 
 export default function BoardAssignment () {
-   const boards = [];
+   const boards = [
+      {label: "Dinner Recipes", value: "dinner"},
+      {label: "Italian Cuisine", value: "italian"},
+      {label: "Quick Meals", value: "quick-meals"}
+   ];
 
+   const [boardName, setBoardName] = useState('no boards yet!');
    const handleChange = (event) => {
+      setBoardName(event.target.value);
    }
 
    return (
